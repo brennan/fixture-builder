@@ -1,8 +1,6 @@
 const fixtures = require('./fixtures')
 const deepMerge = require('lodash').merge
 
-console.log('fixtures', fixtures)
-
 let fIdentify = {}
 let fTrack = {}
 
@@ -24,7 +22,6 @@ function merge(arr) {
       deepMerge(fIdentify, obj)
     }
     if (obj.type === 'track') {
-      console.log(obj)
       deepMerge(fTrack, obj)
     }
   })
