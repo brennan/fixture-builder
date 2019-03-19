@@ -1,0 +1,6 @@
+.DS_Store
+node_modules/
+src/*
+fixtures/*
+!fixtures/index.js
+!fixtures/sample.js
